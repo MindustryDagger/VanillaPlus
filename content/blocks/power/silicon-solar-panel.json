@@ -1,0 +1,15 @@
+{
+	"name": "Кремниевая Солнечная Панель",
+	"description": "Увеличенная Стандартная Солнечная Панель Из Mindustry",
+	"type": "SolarGenerator",
+	"health": 200,
+	"size": 2,
+	"hasPower": true,
+	"powerProduction": 1,
+	"requirements": [
+		{ "item": "lead", "amount": 50},
+		{ "item": "silicon", "amount": 60}
+	],
+	"category": "power",
+	"research": "solar-panel"
+}

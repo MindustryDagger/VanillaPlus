@@ -1,0 +1,25 @@
+{
+  "type": "GenericCrafter",
+  "name": "Пластановый Компрессор На Энергии",
+  "description": "Делает Пластан Из Энергии",
+  "health": 1000,
+  "size": 2,
+  "requirements": [
+    { "item": "lead", "amount": 220},
+	{ "item": "graphite", "amount": 125},
+	{ "item": "titanium", "amount": 175},
+	{ "item": "silicon", "amount": 180},
+  ],
+  "research": "plastanium-compressor",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 24,
+  "consumes": {
+    "power": 5,
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 20,
+  "outputItem": { "item": "plastanium", "amount": 1}
+}

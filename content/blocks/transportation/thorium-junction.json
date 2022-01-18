@@ -1,0 +1,16 @@
+{
+ "type": "junction", 
+ "name": "Ториевый перекрёсток", 
+ "description": "Лучше и быстрее, чеи Титановый перекрёсток", 
+ "health": 250, 
+ "speed": 1.5, 
+ "capacity": 10, 
+ "size": 1, 
+ "requirements": [
+  {"item": "copper", "amount": 2},
+  {"item": "titanium", "amount": 2},
+  {"item": "thorium", "amount": 2}
+ ], 
+ "research": "titanium-junction",
+ "category": "distribution"
+ }

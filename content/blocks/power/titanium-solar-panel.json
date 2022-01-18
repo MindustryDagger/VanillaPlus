@@ -1,0 +1,16 @@
+{
+	"name": "Титановая Солнечная панель",
+	"description": "Солнечная панель из Титана, выдаёт больше, мем Кремневая Солнечная панель",
+	"type": "SolarGenerator",
+	"health": 500,
+	"size": 2,
+	"hasPower": true,
+	"powerProduction": 3,
+	"requirements": [
+		{ "item": "lead", "amount": 100},
+		{ "item": "silicon", "amount": 80},
+		{ "item": "titanium", "amount": 100}
+	],
+	"category": "power",
+	"research": "silicon-solar-panel"
+}
