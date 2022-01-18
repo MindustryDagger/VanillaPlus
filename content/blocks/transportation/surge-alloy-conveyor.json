@@ -1,0 +1,17 @@
+{
+	"type": "Conveyor",
+	"name": "g",
+	"description": "s",
+	"health": 350,
+	"requirements": [
+		{"item": "copper", "amount": 1},
+		{"item": "lead", "amount": 1},
+		{"item": "titanium", "amount": 1},
+		{"item": "thorium", "amount": 1}
+		{"item": "surge-alloy", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 0.49,
+	"displayedSpeed": 60.0,
+	"research": "thorium-conveyor"
+}

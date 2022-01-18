@@ -1,0 +1,23 @@
+{
+  "type": "GenericCrafter",
+  "name": "Мешалка взрывчатой смеси на энергии",
+  "description": "Делает Взрывчатую смесь из энергии",
+  "health": 600,
+  "size": 2,
+  "requirements": [
+    { "item": "lead", "amount": 70},
+	{ "item": "titanium", "amount": 50},
+  ],
+  "research": "blast-mixer",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 25,
+  "consumes": {
+    "power": 2,
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 20,
+  "outputItem": { "item": "blast-compound", "amount": 1}
+}

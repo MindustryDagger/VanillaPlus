@@ -1,0 +1,19 @@
+{
+  "type": "PowerNode",
+  "name": "Кинетический силовой узел",
+  "description": "Лучше, чем Титановый силовой узел",
+  "size": 1,
+  "health": 500,
+  "laserRange": 24,
+  "maxNodes": 32,
+  "requirements": [
+    { "item": "copper", "amount": 30},
+	{ "item": "lead", "amount": 60},
+	{ "item": "silicon", "amount": 50},
+	{ "item": "titanium", "amount": 40},
+	{ "item": "thorium", "amount": 40},
+	{ "item": "surge-alloy", "amount": 20},
+	],
+  "category": "power",
+  "research": "thorium-power-node"
+}

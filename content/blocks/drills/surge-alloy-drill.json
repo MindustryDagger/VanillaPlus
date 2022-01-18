@@ -1,0 +1,26 @@
+{
+	"name": "Кинетический бур",
+	"description": "Добывает всё с огромнейшей скоростью",
+	"type": "Drill",
+	"size": 3,
+	"tier": 7,
+	"drillTime": 40,
+	"itemCapacity": 20,
+	"consumes": {
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.05,
+			"optional": true,
+			"booster": true
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 60 },
+		{ "item": "titanium", "amount": 90 },
+		{ "item": "copper", "amount": 120 },
+		{ "item": "graphite", "amount": 60 },
+		{ "item": "surge-alloy", "amount": 20}
+	],
+	"category": "production",
+	"research": "thorium-drill"
+}

@@ -1,0 +1,15 @@
+{
+ "type": "router",
+ "name": "Кинетический маршрутизатор",
+ "description": "Кинетический маршрутизатор",
+ "health": 500,
+ "size": 1,
+ "requirements": [
+  { "item": "copper", "amount": 3},
+  { "item": "titanium", "amount": 3},
+  { "item": "thorium", "amount": 3},
+  { "item": "surge-alloy", "amount": 3}
+ ],
+ "research": "thorium-router",
+ "category": "distribution"
+}
