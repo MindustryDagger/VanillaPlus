@@ -2,8 +2,8 @@
 	"name": "VanillaPlus",
 	"displayName": "[green]VanillaPlus",
 	"author":"[green]Dagger(Кинжал)",
-	"description": "[green]Добавляет полезные блоки(Adds useful blocks)",
-	"version": "2.0",
+	"description": "[green]Добавляет полезные блоки(Adds useful blocks). Мод создан в одиночку, я русский(The mod was created alone, I'm russian)",
+	"version": "0.1",
 	"hidden": true,
 
 	"minGameVersion": "126.1",
