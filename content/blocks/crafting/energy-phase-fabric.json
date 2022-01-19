@@ -1,0 +1,25 @@
+{
+  "type": "GenericCrafter",
+  "name": "Энерго-Фазовый Ткач",
+  "description": "Синтезирует Фазовую Ткань Из Энергии",
+  "health": 750,
+  "size": 2,
+  "drawer": "DrawWeave",
+  "requirements": [
+    { "item": "lead", "amount": 200},
+	{ "item": "thorium", "amount": 200},
+	{ "item": "silicon", "amount": 225},
+  ],
+  "research": "phase-weaver",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 20,
+  "consumes": {
+    "power": 6,
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 20,
+  "outputItem": { "item": "phase-fabric", "amount": 1}
+}

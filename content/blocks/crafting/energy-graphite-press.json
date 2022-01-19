@@ -1,0 +1,23 @@
+{
+  "type": "GenericCrafter",
+  "name": "Срарий",
+  "description": "Делает Срафит Из Энергии",
+  "health": 500,
+  "size": 2,
+  "requirements": [
+    { "item": "copper", "amount": 110},
+	{ "item": "lead", "amount": 50},
+  ],
+  "research": "graphite-press",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 16,
+  "consumes": {
+    "power": 0.5,
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 20,
+  "outputItem": { "item": "graphite", "amount": 1}
+}

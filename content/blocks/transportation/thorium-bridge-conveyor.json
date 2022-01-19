@@ -1,0 +1,18 @@
+{
+    "type": "ItemBridge",
+    "name": "Ториевый мостовой конвейер",
+    "description": "Дальше и быстрее, чем Титановый мостовой конвейер",
+    "health": 500,
+	"itemCapacity": 30,
+    "requirements": [
+        {"item": "lead", "amount": 4},
+        {"item": "copper", "amount": 4},
+        {"item": "titanium", "amount": 4},
+		{"item": "thorium", "amount": 4}
+    ],
+    "range": 16,
+    "transportTime": 0.5,
+    "hasPower": false,
+    "category": "distribution",
+    "research": "titanium-bridge-conveyor"
+}

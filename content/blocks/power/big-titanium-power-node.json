@@ -1,0 +1,16 @@
+{
+  "type": "PowerNode",
+  "name": "Большой титановый силовой узел",
+  "description": "Улученная версия Титаного силового узла",
+  "size": 2,
+  "health": 250,
+  "laserRange": 14,
+  "maxNodes": 16,
+  "requirements": [
+	{ "item": "lead", "amount": 30},
+	{ "item": "silicon", "amount": 20},
+	{ "item": "titanium", "amount": 25},
+	],
+  "category": "power",
+  "research": "titanium-power-node"
+}
