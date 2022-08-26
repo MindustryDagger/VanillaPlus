@@ -1,22 +1,26 @@
 {
-	"name": "Титановый бур",
-	"description": "Добывает всё",
+	"name": "Titanium drill",
+	"description": "Mines all resourses with good speed",
 	"type": "Drill",
 	"size": 2,
 	"tier": 5,
-	"drillTime": 100,
+	"drillTime": 120,
+	"rotateSpeed": 2,
+	"warmupSpeed": 0.005,
+	"liquidBoostIntensity": 1.5,
+	"liquidCapacity": 10,
 	"consumes": {
 		"liquid": {
 			"liquid": "water", 
 			"amount": 0.05,
 			"optional": true,
 			"booster": true
-		}
+		},
 	},
 	"requirements": [
-		{ "item": "titanium", "amount": 30 },
-		{ "item": "copper", "amount": 40 },
-		{ "item": "graphite", "amount": 20 }
+		"copper/60",
+		"graphite/40",
+		"titanium/30"
 	],
 	"category": "production",
 	"research": "pneumatic-drill"

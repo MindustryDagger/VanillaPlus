@@ -1,14 +1,16 @@
 {
  "type": "router",
- "name": "Кинетический маршрутизатор",
- "description": "Кинетический маршрутизатор",
+ "name": "Surge-alloy router",
+ "description": "And another one ROUTER. The fastest router of all.[#E51616] Necessary evil.",
  "health": 500,
  "size": 1,
+ "speed": 1, 
+ "capacity": 5, 
  "requirements": [
-  { "item": "copper", "amount": 3},
-  { "item": "titanium", "amount": 3},
-  { "item": "thorium", "amount": 3},
-  { "item": "surge-alloy", "amount": 3}
+	"copper/30",
+	"titanium/24",
+	"thorium/20",
+	"surge-alloy/14"
  ],
  "research": "thorium-router",
  "category": "distribution"

@@ -1,15 +1,15 @@
 {
     "type": "ItemBridge",
     "name": "Titanium bridge conveyor",
-    "description": "Longer and stronger than a conventional bridge conveyor, but requires Titanium",
+    "description": "Longer and faster than a conventional bridge conveyor, but requires Titanium",
     "health": 250,
-	"itemCapacity": 20,
+	"itemCapacity": 15,
     "requirements": [
-        {"item": "lead", "amount": 4},
-        {"item": "copper", "amount": 4},
-        {"item": "titanium", "amount": 4}
+  "copper/8",
+  "lead/8",
+  "titanium/8"
     ],
-    "range": 8,
+    "range": 5,
     "transportTime": 2,
     "hasPower": false,
     "category": "distribution",

@@ -1,29 +1,32 @@
 {
-	"name": "Радужный бур",
-	"description": "Добывает всё с РАДУЖНОЙ скоростью",
+	"name": "Rainbow drill",
+	"description": "Mines all resourses with RAINBOW speed. This is the fastest drill, but nonstandard uses cryofluid to speed up - optional. This is new way to mine resouses. Rainbow. Need ALL RESOURSES to build, but this worth it.",
 	"type": "Drill",
 	"size": 4,
 	"tier": 8,
-	"drillTime": 32,
-	"itemCapacity": 50,
+	"drillTime": 40,
+	"itemCapacity": 30,
+	"rotateSpeed": 2.4,
+	"warmupSpeed": 0.003,
+	"liquidBoostIntensity": 2.2,
+	"liquidCapacity": 24,
 	"consumes": {
 		"liquid": {
-			"liquid": "water", 
-			"amount": 0.05,
+			"liquid": "cryofluid", 
+			"amount": 0.10,
 			"optional": true,
 			"booster": true
 		}
 	},
 	"requirements": [
-		{"item": "copper", "amount": 200},
-		{"item": "lead", "amount": 200},
-		{"item": "graphite", "amount": 110},
-		{"item": "silicon", "amount": 100},
-		{"item": "titanium", "amount": 150},
-		{"item": "thorium", "amount": 120},
-		{"item": "plastanium", "amount": 60},
-		{"item": "phase-fabric", "amount": 40},
-		{"item": "surge-alloy", "amount": 50}
+	"copper/200"
+	"lead/180"
+	"silicon/240"
+	"graphite/220"
+	"titanium/190"
+	"thorium/170"
+	"surge-alloy/160"
+	"phase-fabric/150"
 		
 	],
 	"category": "production",

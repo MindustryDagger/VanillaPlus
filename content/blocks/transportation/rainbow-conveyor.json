@@ -1,22 +1,24 @@
 {
 	"type": "Conveyor",
-	"name": "Радужный конвейер",
-	"description": "Супер быстрый радужный конвейер",
+	"name": "[#E51616]R[#FF8000]a[#E5E516]i[#16E516]n[#16E5E5]b[#164EE5]o[#B116E5]w[#FFFFFF] conveyor",
+	"description": "Yes, conveyor name is RAINBOW, look, don't look too hard). but conveyor is very good, and now conveyor has excellent spe[#16E5E5]eeee[#FFFFFF]ed. The [#E51616]R[#FF8000]a[#E5E516]i[#16E516]n[#16E5E5]b[#164EE5]o[#B116E5]w[#BFBFBF] conveyor is very expensive, yes, no more words again.",
 	"health": 500,
 	"requirements": [
-		{"item": "copper", "amount": 1},
-		{"item": "lead", "amount": 1},
-		{"item": "graphite", "amount": 1},
-		{"item": "silicon", "amount": 1},
-		{"item": "titanium", "amount": 1},
-		{"item": "thorium", "amount": 1},
-		{"item": "plastanium", "amount": 1},
-		{"item": "phase-fabric", "amount": 1},
-		{"item": "surge-alloy", "amount": 1}
-		
+	"copper/4",
+	"lead/4",
+	"graphite/4",
+	"silicon/4",
+	"metaglass/4",
+	"pyratite/4",
+	"titanium/4",
+	"blast-compound/4"
+	"plastanium/4",
+	"thorium/4",
+	"phase-fabric/4"
+	"surge-alloy/4"
 	],
 	"category": "distribution",
-	"speed": 0.96,
-	"displayedSpeed": 120.0,
+	"speed": 0.416,
+	"displayedSpeed": 50,
 	"research": "surge-alloy-conveyor"
 }

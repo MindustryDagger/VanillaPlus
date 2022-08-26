@@ -1,18 +1,18 @@
 {
     "type": "ItemBridge",
-    "name": "Кинетический мостовой конвейер",
-    "description": "Дальше и быстрее, чем Ториевый мостовой конвейер",
+    "name": "Surge-alloy bridge conveyor",
+    "description": "Oh yes, this is second last bridge conveyor. And some words, fast bridge transportation, good capacity, speeeeeed, and no more words, but this is EXPENSIVE bridge conveyor, and now[#E51616] NO MORE WORDS. yes.",
     "health": 1000,
-	"itemCapacity": 50,
+	"itemCapacity": 30,
     "requirements": [
-        {"item": "lead", "amount": 4},
-        {"item": "copper", "amount": 4},
-        {"item": "titanium", "amount": 4},
-		{"item": "thorium", "amount": 4},
-		{"item": "surge-alloy", "amount": 4}
+	"copper/50",
+	"lead/60",
+	"titanium/42",
+	"thorium/40",
+	"surge-alloy/32"
     ],
-    "range": 32,
-    "transportTime": 0.01,
+    "range": 12,
+    "transportTime": 0.75,
     "hasPower": false,
     "category": "distribution",
     "research": "thorium-bridge-conveyor"

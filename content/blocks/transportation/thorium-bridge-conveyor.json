@@ -1,17 +1,17 @@
 {
     "type": "ItemBridge",
-    "name": "Ториевый мостовой конвейер",
-    "description": "Дальше и быстрее, чем Титановый мостовой конвейер",
+    "name": "Thorium bridge conveyor",
+    "description": "Longer and faster than Titanium bridge conveyor.",
     "health": 500,
-	"itemCapacity": 30,
+	"itemCapacity": 20,
     "requirements": [
-        {"item": "lead", "amount": 4},
-        {"item": "copper", "amount": 4},
-        {"item": "titanium", "amount": 4},
-		{"item": "thorium", "amount": 4}
+	"copper/20",
+	"lead/20",
+	"titanium/20",
+	"thorium/20"
     ],
-    "range": 16,
-    "transportTime": 0.5,
+    "range": 8,
+    "transportTime": 1,
     "hasPower": false,
     "category": "distribution",
     "research": "titanium-bridge-conveyor"

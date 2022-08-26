@@ -1,16 +1,16 @@
 {
  "type": "junction", 
- "name": "Кинетический перекрёсток", 
- "description": "Лучше и быстрее, чеи Ториевый перекрёсток", 
+ "name": "Surge-alloy junction", 
+ "description": "This is... almost the best junction of ALL junctions. No more words.", 
  "health": 500, 
- "speed": 4, 
- "capacity": 20, 
+ "speed": 1, 
+ "capacity": 10, 
  "size": 1, 
  "requirements": [
-  {"item": "copper", "amount": 2},
-  {"item": "titanium", "amount": 2},
-  {"item": "thorium", "amount": 2},
-  {"item": "surge-alloy", "amount": 2}
+	"copper/30",
+	"titanium/20",
+	"thorium/18",
+	"surge-alloy/16"
  ], 
  "research": "thorium-junction",
  "category": "distribution"

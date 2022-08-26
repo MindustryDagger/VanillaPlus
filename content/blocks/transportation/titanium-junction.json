@@ -3,12 +3,12 @@
  "name": "Titanium junction",
  "description": "Made with Titanium, durable and faster, than standart junction",
  "health": 100,
- "speed": 0.75,
- "capacity": 5,
+ "speed": 0.5,
+ "capacity": 3,
  "size": 1,
  "requirements": [
-  {"item": "copper", "amount": 2},
-  {"item": "titanium", "amount": 2}
+  "copper/4",
+  "titanium/4"
  ], 
  "research": "junction",
  "category": "distribution"

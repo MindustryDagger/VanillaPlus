@@ -1,16 +1,16 @@
 {
 	"type": "Conveyor",
-	"name": "Ториевый конвейер",
-	"description": "Очень быстрый конвейер из тория",
+	"name": "Thorium conveyor",
+	"description": "Fast conveyor. Made from Thorium.",
 	"health": 250,
 	"requirements": [
-		{"item": "copper", "amount": 1},
-		{"item": "lead", "amount": 1},
-		{"item": "titanium", "amount": 1},
-		{"item": "thorium", "amount": 1}
+	"copper/2",
+	"lead/2",
+	"titanium/2",
+	"thorium/2"
 	],
 	"category": "distribution",
-	"speed": 0.24,
-	"displayedSpeed": 30.0,
+	"speed": 0.16,
+	"displayedSpeed": 20.0,
 	"research": "titanium-conveyor"
 }

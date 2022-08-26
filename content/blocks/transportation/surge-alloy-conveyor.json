@@ -1,17 +1,17 @@
 {
 	"type": "Conveyor",
-	"name": "g",
-	"description": "s",
+	"name": "Surge-alloy conveyor",
+	"description": "This is almost last iteration of conveyors. this is good variant, BUT... no more words.",
 	"health": 350,
 	"requirements": [
-		{"item": "copper", "amount": 1},
-		{"item": "lead", "amount": 1},
-		{"item": "titanium", "amount": 1},
-		{"item": "thorium", "amount": 1}
-		{"item": "surge-alloy", "amount": 1}
+	"copper/3",
+	"lead/3",
+	"titanium/3",
+	"thorium/3",
+	"surge-alloy/3"
 	],
 	"category": "distribution",
-	"speed": 0.49,
-	"displayedSpeed": 60.0,
+	"speed": 0.25,
+	"displayedSpeed": 30.0,
 	"research": "thorium-conveyor"
 }

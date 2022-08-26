@@ -1,23 +1,27 @@
 {
-	"name": "Ториевый бур",
-	"description": "Добывает всё с огромной скоростью",
+	"name": "Thorium drill",
+	"description": "Mines all resourses, but faster than 'Titanium drill'. Drill's speed is very good.",
 	"type": "Drill",
 	"size": 2,
-	"tier": 6,
-	"drillTime": 50,
+	"tier": 5,
+	"drillTime": 80,
+	"rotateSpeed": 2.2,
+	"warmupSpeed": 0.006,
+	"liquidBoostIntensity": 1.8,
+	"liquidCapacity": 15,
 	"consumes": {
 		"liquid": {
 			"liquid": "water", 
-			"amount": 0.05,
+			"amount": 0.06,
 			"optional": true,
 			"booster": true
 		}
 	},
 	"requirements": [
-		{ "item": "thorium", "amount": 30 },
-		{ "item": "titanium", "amount": 60 },
-		{ "item": "copper", "amount": 80 },
-		{ "item": "graphite", "amount": 40 }
+		"copper/100"
+		"graphite/80"
+		"titanium/60"
+		"thorium/50"
 	],
 	"category": "production",
 	"research": "titanium-drill"
