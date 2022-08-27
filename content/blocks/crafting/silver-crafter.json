@@ -1,5 +1,5 @@
 {
-  "type": "GenericSmelter",
+  "type": "Genericcrafter",
   "name": "Завод серебра",
   "description": "Производит Серебро из Кремния и Меди. Требует среднее ко-во энергии",
   "health": 1000,

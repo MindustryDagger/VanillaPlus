@@ -1,5 +1,5 @@
 {
-  "type": "GenericSmelter",
+  "type": "GenericCrafter",
   "name": "Энергетическая Печь",
   "description": "Делает метастекло с помощью электричества",
   "health": 500,
@@ -12,9 +12,9 @@
   "research": "kiln",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 20,
+  "craftTime": 27.5,
   "consumes": {
-    "power": 3,
+    "power": 2,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",

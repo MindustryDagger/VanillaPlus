@@ -1,5 +1,5 @@
 {
-  "type": "GenericSmelter",
+  "type": "GenericCrafter",
   "name": "Энергетический Кремневый Генератор",
   "description": "Генерирует Кремний За Счёт Электричества",
   "health": 1000,
@@ -11,7 +11,7 @@
   "research": "silicon-smelter",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 15,
+  "craftTime": 25,
   "consumes": {
     "power": 1,
   },

@@ -1,22 +1,22 @@
 {
-  "type": "GenericSmelter",
+  "type": "GenericCrafter",
   "name": "Энергетический Генератор Кинетики",
   "description": "Генерерует Кинетический Сплав За Счёт Энергии",
   "health": 2000,
   "size": 3,
   "requirements": [
-    { "item": "copper", "amount": 200},
-	{ "item": "lead", "amount": 300},
-	{ "item": "silicon", "amount": 220},
-	{ "item": "titanium", "amount": 400},
-	{ "item": "thorium", "amount": 300}
+    { "item": "copper", "amount": 100},
+	{ "item": "lead", "amount": 175},
+	{ "item": "silicon", "amount": 120},
+	{ "item": "titanium", "amount": 180},
+	{ "item": "thorium", "amount": 140}
   ],
   "research": "alloy-smelter",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 18,
+  "craftTime": 25,
   "consumes": {
-    "power": 8,
+    "power": 4,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",

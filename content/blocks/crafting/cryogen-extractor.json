@@ -1,7 +1,7 @@
 {
   "name": "Криогенасос",
   "description": "Создаёт Криогенку С Помощью Электрических Молний",
-  "type": "GenericCrafter",
+  "type": "SolidPump",
   "health": 400,
   "size": 2,
   "requirements": [
@@ -11,18 +11,17 @@
 	{ "item": "metaglass", "amount": 150},
 	
   ],
+  "result": "cryofluid",
+  "attribute": "water",
+  "pumpAmount": 0.5,
   "research": "cryofluid-mixer",
   "hasPower": true,
   "hasItems": false,
   "hasLiquid": true,
-  "craftTime": 6,
+  
   "consumes": {
-    "power": 6,
-	"liquid": {
-     "liquid": "water"
-     "amount": 0.05
+    "power": 5,
 	},
-  },
   "updateEffect": "none",
   "category": "crafting",
   "idleSoundVolume": 0.5,

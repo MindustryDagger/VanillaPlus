@@ -6,7 +6,6 @@
   "size": 2,
    "requirements": [
    ],
-  "research": "mechanical-drill",
   "hasPower": false,
   "hasItems": true,
   "craftTime": 360,
@@ -15,5 +14,11 @@
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 10,
-  "outputItem": { "item": "copper", "amount": 1}
+  "outputItem": { "item": "copper", "amount": 1},
+  "research": {
+	"parent": "mechanical-drill",
+	"requirements": [
+	"copper/1000"
+	],
+  },
 }

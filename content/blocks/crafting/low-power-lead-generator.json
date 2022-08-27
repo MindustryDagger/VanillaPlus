@@ -10,7 +10,7 @@
   "research": "mechanical-drill",
   "hasPower": false,
   "hasItems": true,
-  "craftTime": 220,
+  "craftTime": 180,
   
   "updateEffect": "smeltsmoke",
   "category": "crafting",
