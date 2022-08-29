@@ -4,7 +4,21 @@
   "description": "Синтезирует Фазовую Ткань Из Энергии",
   "health": 750,
   "size": 2,
-  "drawer": "DrawWeave",
+"drawer": {
+"type": "DrawMulti"
+"drawers": [
+{
+"type": "DrawRegion",
+"suffix": "-bottom"
+},
+{
+"type": "DrawWeave"
+},
+{
+"type": "DrawDefault"
+},
+],
+},
   "requirements": [
     { "item": "lead", "amount": 100},
 	{ "item": "thorium", "amount": 120},
