@@ -1,8 +1,8 @@
 {
 	"name": "vanillaplus",
-	"displayName": "[#00FF00[]]Vanilla[#FFFF00[]]Plus",
-	"author": "[#FFC000[]]Mindustry[#00FF00[]]Dagger[#FFFFFF[]]([#00FF00[]]Кинжал[#FFFFFF[]])",
-	"description": "[#00FFFF[]](RU)[#FFFFFF[]] Модификация добавляет полезные блоки.[#0080FF[]] Мод создан мной, я русский.[#FF4747[]] Мод добавляет юнитов(икнаТ), заводы, конвейеры и ещё много всего.[#00FF80[]] Версия мода[#FFC000[]] 0.1 [#FF4747[]]Альфа.\n[#00FFFF[]](EN)[#FFFFFF[]] Modification adds useful blocks.[#FF4747[]] The mod was created by me, I'm russian.[#0080FF[]]Mod adds units(sknaT), factories, conveyors and many more blocks.[#00FF80[]] Mod version[#FFC000[]] 0.1 [#FF4747[]]Alpha.",
+	"displayName": "[#16E516[]]Vanilla[#FFE000[]]Plus",
+	"author": "[#FFC000[]]Mindustry[#16E516[]]Dagger[#FFFFFF[]]([#16E516[]]Кинжал[#FFFFFF[]])",
+	"description": "[#00FFFF[]](RU)[#FFFFFF[]] Модификация добавляет полезные блоки.[#0080FF[]] Мод создан мной, я русский.[#FF4747[]] Мод добавляет юнитов(икнаТ), заводы, конвейеры и ещё много всего.[#00FF80[]] Версия мода[#FFC000[]] 0.1 [#FF4747[]]Альфа.\n[#00FFFF[]](EN)[#FFFFFF[]] Modification adds useful blocks.[#FF4747[]] The mod was created by me, I'm russian.[#0080FF[]] Mod adds units(sknaT), factories, conveyors and many more blocks.[#00FF80[]] Mod version[#FFC000[]] 0.1 [#FF4747[]]Alpha.",
 	"version": "[#FFC000[]]0.1 [#FF4747[]]Alpha",
 	"hidden": true,
 
