@@ -4,6 +4,7 @@
  "type": "UnitFactory",
  "health": 60,
  "size": 3,
+ "alwaysUnlocked": true,
  "requirements": [
 		{ "item": "copper", "amount": 40}
    ],

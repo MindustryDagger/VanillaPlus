@@ -10,8 +10,8 @@
 		{"item": "titanium", "amount": 75},
 		{"item": "metaglass", "amount": 50},
 		{"item": "plastanium", "amount": 60},
-		{"item": "pyratite", "amount": 80},
 	],	
 	"category": "effect",
 	"research": "unloader",
+	"group": "transportation",
 }

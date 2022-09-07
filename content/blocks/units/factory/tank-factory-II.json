@@ -21,14 +21,22 @@
 		],
 	"time": 1200,
 		},
+		{
+    "unit": "t-15",
+    "requirements": [
+	"copper/80"
+	"graphite/60"
+		],
+	"time": 1500,
+		},
 	],
 	"unitCapModifier": 0,
 	"research": {
 	"parent": "tank-factory-I",
 	"requirements": [
-  "copper/1200",
-  "lead/900"
-  "graphite/800"
+  "copper/1500",
+  "lead/1250"
+  "graphite/1000"
   ]
   "objectives": [
   {
