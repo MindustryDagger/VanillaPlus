@@ -8,8 +8,8 @@
  "size": 1,
  "requirements": [
   "copper/4",
-  "titanium/4"
+  "titanium/4",
  ], 
  "research": "junction",
- "category": "distribution"
+ "category": "distribution",
  }
