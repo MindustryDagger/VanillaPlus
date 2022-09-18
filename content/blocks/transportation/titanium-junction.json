@@ -4,7 +4,7 @@
  "description": "Made with Titanium, durable and faster, than standart junction",
  "health": 100,
  "speed": 0.5,
- "capacity": 3,
+ "capacity": 5,
  "size": 1,
  "requirements": [
   "copper/4",
