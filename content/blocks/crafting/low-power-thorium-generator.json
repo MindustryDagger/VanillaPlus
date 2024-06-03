@@ -18,7 +18,7 @@
   "hasItems": true,
   "craftTime": 65,
   "consumes": {
-    "power": 3.5,
+    "power": 35,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",

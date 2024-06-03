@@ -13,9 +13,9 @@
   "research": "plastanium-compressor",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 24,
+  "craftTime": 60,
   "consumes": {
-    "power": 5,
+    "power": 30,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",

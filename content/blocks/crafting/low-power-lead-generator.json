@@ -16,5 +16,5 @@
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 10,
-  "outputItem": { "item": "lead", "amount": 1}
+  "outputItem": { "item": "lead", "amount": 0.2}
 }
