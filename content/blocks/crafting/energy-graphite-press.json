@@ -11,9 +11,9 @@
   "research": "graphite-press",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 36,
+  "craftTime": 40,
   "consumes": {
-    "power": 0.5,
+    "power": 15,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",

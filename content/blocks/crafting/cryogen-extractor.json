@@ -1,6 +1,6 @@
 {
   "name": "Криогенасос",
-  "description": "Создаёт Криогенку С Помощью Электрических Молний",
+  "description": "Создаёт криогенную жидкость с помощью электрических молний",
   "type": "SolidPump",
   "health": 400,
   "size": 2,
@@ -13,19 +13,19 @@
   ],
   "result": "cryofluid",
   "attribute": "water",
-  "pumpAmount": 0.5,
+  "pumpAmount": 0.2,
   "research": "cryofluid-mixer",
   "hasPower": true,
   "hasItems": false,
   "hasLiquid": true,
   
   "consumes": {
-    "power": 5,
+    "power": 10,
 	},
   "updateEffect": "none",
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 40,
   "liquidCapacity": 120,
-  "outputLiquid": { "liquid": "cryofluid", "amount": 5},
+  "outputLiquid": { "liquid": "cryofluid", "amount": 2},
 }
