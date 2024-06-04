@@ -27,9 +27,9 @@
   "research": "phase-weaver",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 32,
+  "craftTime": 30,
   "consumes": {
-    "power": 3,
+    "power": 50,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",

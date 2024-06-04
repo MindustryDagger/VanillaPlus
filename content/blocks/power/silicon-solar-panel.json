@@ -5,7 +5,7 @@
 	"health": 200,
 	"size": 2,
 	"hasPower": true,
-	"powerProduction": 1,
+	"powerProduction": 0.5,
 	"requirements": [
 		{ "item": "lead", "amount": 50},
 		{ "item": "silicon", "amount": 60}
