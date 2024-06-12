@@ -14,9 +14,9 @@
   "research": "alloy-smelter",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 75,
+  "craftTime": 90,
   "consumes": {
-    "power": 40,
+    "power": 30,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",

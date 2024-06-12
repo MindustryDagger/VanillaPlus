@@ -1,11 +1,11 @@
 {
-	"name": "Кинетическая Солнечная панель",
-	"description": "Солнечная панель из Кинетического сплава, выдаёт больше, чем Ториевая Солнечная панель",
+	"name": "Surge solar panel",
+	"description": "Solar panel made from surge-alloy. The best solar panel",
 	"type": "SolarGenerator",
 	"health": 2000,
 	"size": 2,
 	"hasPower": true,
-	"powerProduction": 6,
+	"powerProduction": 5,
 	"requirements": [
 		{ "item": "lead", "amount": 160},
 		{ "item": "silicon", "amount": 120},

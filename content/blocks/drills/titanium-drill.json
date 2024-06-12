@@ -1,6 +1,6 @@
 {
 	"name": "Titanium drill",
-	"description": "Mines all resourses with good speed",
+	"description": "Mines thorium. Drill faster than pneumatic drill",
 	"type": "Drill",
 	"size": 2,
 	"tier": 5,
@@ -12,7 +12,7 @@
 	"consumes": {
 		"liquid": {
 			"liquid": "water", 
-			"amount": 0.05,
+			"amount": 0.075,
 			"optional": true,
 			"booster": true
 		},

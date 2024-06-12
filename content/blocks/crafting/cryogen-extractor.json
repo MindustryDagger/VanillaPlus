@@ -6,21 +6,21 @@
   "size": 2,
   "requirements": [
 	{ "item": "lead", "amount": 100},
-	{ "item": "silicon", "amount": 70},
+	{ "item": "silicon", "amount": 80},
 	{ "item": "titanium", "amount": 200},
+	{ "item": "graphite", "amount": 75},
 	{ "item": "metaglass", "amount": 150},
-	
   ],
   "result": "cryofluid",
   "attribute": "water",
-  "pumpAmount": 0.2,
+  "pumpAmount": 0.3,
   "research": "cryofluid-mixer",
   "hasPower": true,
   "hasItems": false,
   "hasLiquid": true,
   
   "consumes": {
-    "power": 10,
+    "power": 12,
 	},
   "updateEffect": "none",
   "category": "crafting",

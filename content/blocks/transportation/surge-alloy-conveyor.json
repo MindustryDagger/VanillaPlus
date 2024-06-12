@@ -1,7 +1,7 @@
 {
 	"type": "Conveyor",
 	"name": "Surge-alloy conveyor",
-	"description": "This is almost last iteration of conveyors. this is good variant, BUT... no more words.",
+	"description": "This is last iteration of conveyors. The fastest conveyor",
 	"health": 350,
 	"requirements": [
 	"copper/3",
@@ -11,7 +11,7 @@
 	"surge-alloy/3"
 	],
 	"category": "distribution",
-	"speed": 0.25,
-	"displayedSpeed": 30.0,
+	"speed": 0.3,
+	"displayedSpeed": 36.0,
 	"research": "thorium-conveyor"
 }

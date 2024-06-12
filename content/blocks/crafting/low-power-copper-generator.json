@@ -5,16 +5,17 @@
   "health": 500,
   "size": 2,
    "requirements": [
+   "copper/5"
    ],
   "hasPower": false,
   "hasItems": true,
-  "craftTime": 360,
+  "craftTime": 900,
 
   "updateEffect": "smeltsmoke",
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 10,
-  "outputItem": { "item": "copper", "amount": 1},
+  "outputItem": { "item": "copper", "amount": 2},
   "research": {
 	"parent": "mechanical-drill",
 	"requirements": [

@@ -1,6 +1,6 @@
 {
-	"name": "Свинцовая Солнечная Панель",
-	"description": "Стартовая панель *Без коментариев*",
+	"name": "Lead solar panel",
+	"description": "Primary solar panel made from lead... generates really low amount of power",
 	"type": "SolarGenerator",
 	"health": 200,
 	"size": 2,

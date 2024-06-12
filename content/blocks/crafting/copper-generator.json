@@ -11,9 +11,9 @@
   "research": "low-power-copper-generator",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 40,
+  "craftTime": 75,
   "consumes": {
-    "power": 15,
+    "power": 5,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",

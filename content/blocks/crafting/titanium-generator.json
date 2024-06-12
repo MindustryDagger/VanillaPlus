@@ -16,9 +16,9 @@
   "research": "low-power-titanium-generator",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 24,
+  "craftTime": 60,
   "consumes": {
-    "power": 40,
+    "power": 16.5,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",
