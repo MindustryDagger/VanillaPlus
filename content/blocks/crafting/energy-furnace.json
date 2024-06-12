@@ -12,9 +12,9 @@
   "research": "kiln",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 27.5,
+  "craftTime": 40,
   "consumes": {
-    "power": 20,
+    "power": 14,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",

@@ -4,8 +4,8 @@
   "description": "Лучше, чем Титановый силовой узел",
   "size": 1,
   "health": 500,
-  "laserRange": 24,
-  "maxNodes": 32,
+  "laserRange": 15,
+  "maxNodes": 30,
   "requirements": [
     { "item": "copper", "amount": 30},
 	{ "item": "lead", "amount": 60},

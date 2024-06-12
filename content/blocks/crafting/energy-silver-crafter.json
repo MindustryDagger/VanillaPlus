@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Завод серебра на энергии",
-  "description": "Производит Серебро из энергии. Требует большое кол-во энергии, требует это же самое Серебро для постройки",
+  "description": "Производит Серебро из энергии. Требует большое кол-во энергии, требует Серебро для постройки",
   "health": 1000,
   "size": 2,
   "requirements": [
@@ -9,13 +9,14 @@
 	{ "item": "lead", "amount": 60},
 	{ "item": "silicon", "amount": 50},
 	{ "item": "titanium", "amount": 40},
+	{ "item": "silver", "amount": 30},
   ],
   "research": "silicon-smelter",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 25,
+  "craftTime": 120,
   "consumes": {
-    "power": 25,
+    "power": 7.5,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",

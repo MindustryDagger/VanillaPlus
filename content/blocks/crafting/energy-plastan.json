@@ -6,20 +6,20 @@
   "size": 2,
   "requirements": [
     { "item": "lead", "amount": 220},
-	{ "item": "graphite", "amount": 125},
-	{ "item": "titanium", "amount": 175},
-	{ "item": "silicon", "amount": 180},
+	{ "item": "graphite", "amount": 100},
+	{ "item": "titanium", "amount": 150},
+	{ "item": "silicon", "amount": 175},
   ],
   "research": "plastanium-compressor",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 60,
+  "craftTime": 600,
   "consumes": {
-    "power": 30,
+    "power": 20,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",
   "idleSoundVolume": 0.5,
-  "itemCapacity": 20,
-  "outputItem": { "item": "plastanium", "amount": 1}
+  "itemCapacity": 15,
+  "outputItem": { "item": "plastanium", "amount": 3}
 }

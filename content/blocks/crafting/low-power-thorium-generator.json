@@ -16,9 +16,9 @@
   "research": "thorium-drill",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 65,
+  "craftTime": 135,
   "consumes": {
-    "power": 35,
+    "power": 14,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",

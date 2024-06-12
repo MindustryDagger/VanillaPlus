@@ -5,16 +5,16 @@
   "health": 750,
   "size": 2,
    "requirements": [
-	{ "item": "copper", "amount": 100},
+	{ "item": "copper", "amount": 200},
    ],
   "research": "mechanical-drill",
   "hasPower": false,
   "hasItems": true,
-  "craftTime": 180,
+  "craftTime": 480,
   
   "updateEffect": "smeltsmoke",
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 10,
-  "outputItem": { "item": "lead", "amount": 0.2}
+  "outputItem": { "item": "lead", "amount": 2}
 }

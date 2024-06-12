@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Завод серебра",
-  "description": "Производит Серебро из Кремния и Меди. Требует среднее ко-во энергии",
+  "description": "Производит Серебро из Кремния и Меди. Требует среднее клоличество энергии",
   "health": 1000,
   "size": 2,
   "requirements": [
@@ -13,13 +13,13 @@
   "research": "silicon-smelter",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 40,
+  "craftTime": 50,
   "consumes": {
     "power": 1,
 	"items": {
 		"items": [
 	{ "item": "copper", "amount": 2},
-	{ "item": "silicon", "amount": 4},
+	{ "item": "silicon", "amount": 3},
     ]
   }
 

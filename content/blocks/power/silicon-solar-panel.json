@@ -1,14 +1,14 @@
 {
-	"name": "Кремниевая Солнечная Панель",
-	"description": "Увеличенная Стандартная Солнечная Панель Из Mindustry",
+	"name": "Silicon solar panel",
+	"description": "Scaled original solar panel from Mindustry that generates more power",
 	"type": "SolarGenerator",
 	"health": 200,
 	"size": 2,
 	"hasPower": true,
 	"powerProduction": 0.5,
 	"requirements": [
-		{ "item": "lead", "amount": 50},
-		{ "item": "silicon", "amount": 60}
+		{ "item": "lead", "amount": 60},
+		{ "item": "silicon", "amount": 90}
 	],
 	"category": "power",
 	"research": "solar-panel"

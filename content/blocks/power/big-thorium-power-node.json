@@ -1,11 +1,11 @@
 {
   "type": "PowerNode",
-  "name": "Большой ториевый силовой узел",
-  "description": "Улученная версия Ториевого силового узла",
+  "name": "Big thorium power node",
+  "description": "Scaled thorium power node. Has little amount of connections with big radius. Same feature that has titanium power node.",
   "size": 2,
   "health": 500,
-  "laserRange": 20,
-  "maxNodes": 28,
+  "laserRange": 32,
+  "maxNodes": 6,
   "requirements": [
 	{ "item": "lead", "amount": 50},
 	{ "item": "silicon", "amount": 40},

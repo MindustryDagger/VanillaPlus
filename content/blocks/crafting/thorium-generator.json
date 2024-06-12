@@ -2,7 +2,7 @@
   "type": "GenericCrafter",
   "name": "Генератор тория",
   "description": "Генерирует Торий за счёт сильнейшей компресации энергии, требует колосальнейшее количество энергии для работы, лучше, чем его маломощная версия, но требует очень большое количество ресурсов для постройки",
-  "health": 2000,
+  "health": 1500,
   "size": 2,
   "requirements": [
     { "item": "copper", "amount": 100},
@@ -19,9 +19,9 @@
   "research": "low-power-thorium-generator",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 25,
+  "craftTime": 72,
   "consumes": {
-    "power": 50,
+    "power": 25,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",

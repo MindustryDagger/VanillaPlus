@@ -1,11 +1,11 @@
 {
   "type": "PowerNode",
-  "name": "Большой кинетический силовой узел",
-  "description": "Улученная версия Кинетического силового узла",
+  "name": "Big surge power node",
+  "description": "Scaled small surge power node. The same feature as previous big power nodes.",
   "size": 2,
   "health": 1000,
-  "laserRange": 32,
-  "maxNodes": 48,
+  "laserRange": 45,
+  "maxNodes": 8,
   "requirements": [
 	{ "item": "lead", "amount": 100},
 	{ "item": "silicon", "amount": 80},

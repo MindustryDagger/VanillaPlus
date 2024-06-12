@@ -1,6 +1,6 @@
 {
 	"name": "Surge-alloy drill",
-	"description": "Mines all resourses with very great speed, drill faster, than previous drills, but this drill is not fastest",
+	"description": "Mines all resourses very fast. The fastest drill",
 	"type": "Drill",
 	"size": 3,
 	"tier": 5,
@@ -8,12 +8,12 @@
 	"itemCapacity": 20,
 	"rotateSpeed": 2.4,
 	"warmupSpeed": 0.004,
-	"liquidBoostIntensity": 2,
+	"liquidBoostIntensity": 1.9,
 	"liquidCapacity": 20,
 	"consumes": {
 		"liquid": {
 			"liquid": "water", 
-			"amount": 0.08,
+			"amount": 0.2,
 			"optional": true,
 			"booster": true
 		}

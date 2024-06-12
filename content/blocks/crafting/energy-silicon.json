@@ -11,13 +11,13 @@
   "research": "silicon-smelter",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 90,
+  "craftTime": 180,
   "consumes": {
-    "power": 20,
+    "power": 12,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 20,
-  "outputItem": { "item": "silicon", "amount": 1}
+  "outputItem": { "item": "silicon", "amount": 2}
 }
