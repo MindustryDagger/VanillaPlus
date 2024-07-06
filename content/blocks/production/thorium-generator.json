@@ -1,6 +1,6 @@
 {
   "type": "GenericCrafter",
-  "name": "Generates thorium",
+  "name": "Thorium generator",
   "description": "Generates thorium. Building this generator is expensive. Block gives out small stacks of thorium, relatively frequently. Consumes big amount of power.",
   "health": 1500,
   "size": 2,
