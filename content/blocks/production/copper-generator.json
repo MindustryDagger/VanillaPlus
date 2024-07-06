@@ -1,0 +1,23 @@
+{
+  "type": "GenericCrafter",
+  "name": "Copper generator",
+  "description": "Upgraded LP copper generator",
+  "health": 1000,
+  "size": 2,
+   "requirements": [
+   { "item": "copper", "amount": 200},
+   { "item": "lead", "amount": 150},
+   ],
+  "research": "low-power-copper-generator",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 40,
+  "consumes": {
+    "power": 10,
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 20,
+  "outputItem": { "item": "copper", "amount": 1}
+}

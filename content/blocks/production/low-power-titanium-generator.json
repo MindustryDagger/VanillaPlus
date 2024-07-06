@@ -1,0 +1,26 @@
+{
+  "type": "GenericCrafter",
+  "name": "LP titanium generator",
+  "description": "Produce titanium, strongly compresses energy into titanium.",
+  "health": 500,
+  "size": 2,
+  "requirements": [
+    { "item": "copper", "amount": 160},
+	{ "item": "lead", "amount": 200},
+	{ "item": "graphite", "amount": 100},
+	{ "item": "silicon", "amount": 150},
+	{ "item": "metaglass", "amount": 100},
+  ],
+  "research": "titanium-drill",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 90,
+  "consumes": {
+    "power": 15,
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 10,
+  "outputItem": { "item": "titanium", "amount": 1}
+}

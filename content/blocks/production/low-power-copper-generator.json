@@ -1,0 +1,25 @@
+{
+  "type": "GenericCrafter",
+  "name": "LP copper generator",
+  "description": "LP means 'low-power', slowly generates copper. Costs low, dont need energy.",
+  "health": 500,
+  "size": 2,
+   "requirements": [
+   "copper/10"
+   ],
+  "hasPower": false,
+  "hasItems": true,
+  "craftTime": 600,
+
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 10,
+  "outputItem": { "item": "copper", "amount": 2},
+  "research": {
+	"parent": "mechanical-drill",
+	"requirements": [
+	"copper/1000"
+	],
+  },
+}
