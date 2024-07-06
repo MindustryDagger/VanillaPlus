@@ -23,7 +23,7 @@
     "power": 12,
 	},
   "updateEffect": "none",
-  "category": "crafting",
+  "category": "production",
   "idleSoundVolume": 0.5,
   "itemCapacity": 40,
   "liquidCapacity": 120,
