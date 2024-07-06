@@ -27,7 +27,7 @@
   "research": "phase-weaver",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 720,
+  "craftTime": 600,
   "consumes": {
     "power": 25,
   },
