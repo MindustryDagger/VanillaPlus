@@ -11,7 +11,7 @@
   "research": "graphite-press",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 100,
+  "craftTime": 150,
   "consumes": {
     "power": 7.5,
   },
