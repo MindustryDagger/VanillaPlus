@@ -1,17 +1,17 @@
 {
   "type": "GenericCrafter",
-  "name": "Мешалка пиротита на энергии",
-  "description": "Делает Пиротит из энергии",
+  "name": "Pyratergy mixer",
+  "description": "Produce pyratite. Needs much power.",
   "health": 400,
   "size": 2,
   "requirements": [
-    { "item": "copper", "amount": 120},
-	{ "item": "lead", "amount": 75},
+    { "item": "copper", "amount": 200},
+	{ "item": "lead", "amount": 130},
   ],
   "research": "pyratite-mixer",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 55,
+  "craftTime": 180,
   "consumes": {
     "power": 11,
   },
@@ -19,5 +19,5 @@
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 20,
-  "outputItem": { "item": "pyratite", "amount": 1}
+  "outputItem": { "item": "pyratite", "amount": 3}
 }

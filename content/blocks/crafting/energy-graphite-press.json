@@ -11,7 +11,7 @@
   "research": "graphite-press",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 72,
+  "craftTime": 100,
   "consumes": {
     "power": 7.5,
   },
@@ -19,5 +19,5 @@
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 20,
-  "outputItem": { "item": "graphite", "amount": 1}
+  "outputItem": { "item": "graphite", "amount": 2}
 }

@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Plastenergy compressor",
-  "description": "Makes plastanium with energy. Generates stacks of 3 plastanium.",
+  "description": "Makes plastanium with energy. Generates stacks of three plastanium.",
   "health": 1000,
   "size": 2,
   "requirements": [

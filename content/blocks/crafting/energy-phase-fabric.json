@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
-  "name": "Энерго-Фазовый Ткач",
-  "description": "Синтезирует Фазовую Ткань Из Энергии",
+  "name": "Enerphase weaver",
+  "description": "Sythesis phase-fabric. Outputs big amount of it.",
   "health": 750,
   "size": 2,
 "drawer": {
@@ -35,5 +35,5 @@
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 20,
-  "outputItem": { "item": "phase-fabric", "amount": 2}
+  "outputItem": { "item": "phase-fabric", "amount": 4}
 }

@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
-  "name": "Генератор титана",
-  "description": "Генерирует Титан за счёт сильнейшей компресации энергии, лучше, чем его маломощная версия, но требует Титан и Пластан",
+  "name": "Titanium generator",
+  "description": "Generates stacks of titanium",
   "health": 1000,
   "size": 2,
   "requirements": [
@@ -16,13 +16,13 @@
   "research": "low-power-titanium-generator",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 60,
+  "craftTime": 96,
   "consumes": {
-    "power": 16.5,
+    "power": 20,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",
   "idleSoundVolume": 0.5,
-  "itemCapacity": 35,
-  "outputItem": { "item": "titanium", "amount": 1}
+  "itemCapacity": 32,
+  "outputItem": { "item": "titanium", "amount": 2}
 }

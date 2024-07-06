@@ -1,0 +1,16 @@
+{
+ "type": "router",
+ "name": "Thorium router",
+ "description": "Made of Thorium, better than a Titanium router.[#E51616] Necessary evil.",
+ "health": 250,
+ "size": 1,
+ "speed": 0.75, 
+ "capacity": 4, 
+ "requirements": [
+	"copper/10",
+	"titanium/10",
+	"thorium/10"
+ ],
+ "research": "titanium-router",
+ "category": "distribution"
+}
