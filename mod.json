@@ -4,7 +4,7 @@
 	"author": "MindustryDagger",
 	"description": "[#00FFFF[]](RU)[#FFFFFF[]] Модификация добавляет полезные блоки.\n[#00FFFF[]](EN)[#FFFFFF[]] Modification adds useful blocks.\nMod is now probably in release. \nv1.1.",
 	"version": "Release 1.1",
-	"hidden": true,
+	"hidden": false,
 
 	"minGameVersion": "136",
 	"dependencies": []
