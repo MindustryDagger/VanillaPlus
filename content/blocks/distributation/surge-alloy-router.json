@@ -1,0 +1,17 @@
+{
+ "type": "router",
+ "name": "Surge-alloy router",
+ "description": "And another one ROUTER. The fastest router of all.[#E51616] Necessary evil.",
+ "health": 500,
+ "size": 1,
+ "speed": 1, 
+ "capacity": 5, 
+ "requirements": [
+	"copper/30",
+	"titanium/24",
+	"thorium/20",
+	"surge-alloy/14"
+ ],
+ "research": "thorium-router",
+ "category": "distribution"
+}

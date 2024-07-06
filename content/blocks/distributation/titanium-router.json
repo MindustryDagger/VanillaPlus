@@ -1,0 +1,15 @@
+{
+ "type": "router",
+ "name": "Titanium router",
+ "description": "Made with Titanium, durable and faster, than standart router.[#E51616] Necessary evil.",
+ "health": 100,
+ "speed": 0.5,
+ "capacity": 2,
+ "size": 1,
+ "requirements": [
+  "copper/6",
+  "titanium/6"
+ ],
+ "research": "router",
+ "category": "distribution"
+}

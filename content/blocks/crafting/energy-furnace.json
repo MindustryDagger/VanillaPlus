@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
-  "name": "Энергетическая Печь",
-  "description": "Делает метастекло с помощью электричества",
+  "name": "Energy kiln",
+  "description": "Freezes energy into two metaglass units",
   "health": 500,
   "size": 2,
   "requirements": [
@@ -12,13 +12,13 @@
   "research": "kiln",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 40,
+  "craftTime": 90,
   "consumes": {
-    "power": 14,
+    "power": 15,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 24,
-  "outputItem": { "item": "metaglass", "amount": 1}
+  "outputItem": { "item": "metaglass", "amount": 2}
 }

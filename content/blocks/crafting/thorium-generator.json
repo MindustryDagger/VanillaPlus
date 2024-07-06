@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
-  "name": "Генератор тория",
-  "description": "Генерирует Торий за счёт сильнейшей компресации энергии, требует колосальнейшее количество энергии для работы, лучше, чем его маломощная версия, но требует очень большое количество ресурсов для постройки",
+  "name": "Generates thorium",
+  "description": "Generates thorium. Building this generator is expensive. Block gives out small stacks of thorium, relatively frequently. Consumes big amount of power.",
   "health": 1500,
   "size": 2,
   "requirements": [
@@ -19,13 +19,13 @@
   "research": "low-power-thorium-generator",
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 72,
+  "craftTime": 88,
   "consumes": {
-    "power": 25,
+    "power": 30,
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 30,
-  "outputItem": { "item": "thorium", "amount": 1}
+  "outputItem": { "item": "thorium", "amount": 2}
 }
