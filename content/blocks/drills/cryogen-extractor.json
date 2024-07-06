@@ -1,0 +1,31 @@
+{
+  "name": "Cryoxtractor",
+  "description": "Produce cryofliud with electic convertions.",
+  "type": "SolidPump",
+  "health": 400,
+  "size": 2,
+  "requirements": [
+	{ "item": "lead", "amount": 100},
+	{ "item": "silicon", "amount": 80},
+	{ "item": "titanium", "amount": 200},
+	{ "item": "graphite", "amount": 75},
+	{ "item": "metaglass", "amount": 150},
+  ],
+  "result": "cryofluid",
+  "attribute": "water",
+  "pumpAmount": 0.3,
+  "research": "cryofluid-mixer",
+  "hasPower": true,
+  "hasItems": false,
+  "hasLiquid": true,
+  
+  "consumes": {
+    "power": 12,
+	},
+  "updateEffect": "none",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 40,
+  "liquidCapacity": 120,
+  "outputLiquid": { "liquid": "cryofluid", "amount": 2},
+}
