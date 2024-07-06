@@ -1,0 +1,27 @@
+{
+  "type": "GenericCrafter",
+  "name": "Blastergy mixer",
+  "description": "Makes blast-compound. Needs some energy and pyratite.",
+  "health": 600,
+  "size": 2,
+  "requirements": [
+    { "item": "lead", "amount": 120},
+	{ "item": "titanium", "amount": 80},
+  ],
+  "research": "blast-mixer",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 180,
+  "consumes": {
+    "power": 10,
+	"items":
+		"items": [
+		"pyratite/2"
+		],
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 20,
+  "outputItem": { "item": "blast-compound", "amount": 4}
+}

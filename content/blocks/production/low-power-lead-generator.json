@@ -1,0 +1,20 @@
+{
+  "type": "GenericCrafter",
+  "name": "LP lead generator",
+  "description": "Generates lead slowly. Dont need power.",
+  "health": 750,
+  "size": 2,
+   "requirements": [
+	 "copper/100"
+   ],
+  "research": "mechanical-drill",
+  "hasPower": false,
+  "hasItems": true,
+  "craftTime": 780,
+  
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 10,
+  "outputItem": { "item": "lead", "amount": 3}
+}

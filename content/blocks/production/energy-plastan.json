@@ -1,0 +1,25 @@
+{
+  "type": "GenericCrafter",
+  "name": "Plastenergy compressor",
+  "description": "Makes plastanium with energy. Generates stacks of three plastanium.",
+  "health": 1000,
+  "size": 2,
+  "requirements": [
+    { "item": "lead", "amount": 200},
+	{ "item": "graphite", "amount": 100},
+	{ "item": "titanium", "amount": 120},
+	{ "item": "silicon", "amount": 150},
+  ],
+  "research": "plastanium-compressor",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 300,
+  "consumes": {
+    "power": 20,
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 15,
+  "outputItem": { "item": "plastanium", "amount": 3}
+}

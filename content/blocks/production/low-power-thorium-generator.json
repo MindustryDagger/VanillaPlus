@@ -1,0 +1,28 @@
+{
+  "type": "GenericCrafter",
+  "name": "LP thorium generator",
+  "description": "Generates thorium, needs much power.",
+  "health": 1500,
+  "size": 2,
+  "requirements": [
+    { "item": "copper", "amount": 150},
+	{ "item": "lead", "amount": 150},
+	{ "item": "graphite", "amount": 100},
+	{ "item": "silicon", "amount": 100},
+	{ "item": "metaglass", "amount": 110},
+	{ "item": "titanium", "amount": 150},
+	{ "item": "plastanium", "amount": 200},
+  ],
+  "research": "thorium-drill",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 100,
+  "consumes": {
+    "power": 22,
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 10,
+  "outputItem": { "item": "thorium", "amount": 1}
+}

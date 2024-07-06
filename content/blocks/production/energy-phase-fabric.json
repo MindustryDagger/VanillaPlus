@@ -1,0 +1,39 @@
+{
+  "type": "GenericCrafter",
+  "name": "Enerphase weaver",
+  "description": "Sythesis phase-fabric. Outputs big amount of it.",
+  "health": 750,
+  "size": 2,
+"drawer": {
+"type": "DrawMulti"
+"drawers": [
+{
+"type": "DrawRegion",
+"suffix": "-bottom"
+},
+{
+"type": "DrawWeave"
+},
+{
+"type": "DrawDefault"
+},
+],
+},
+  "requirements": [
+    { "item": "lead", "amount": 150},
+	{ "item": "thorium", "amount": 170},
+	{ "item": "silicon", "amount": 200},
+  ],
+  "research": "phase-weaver",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 720,
+  "consumes": {
+    "power": 25,
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 20,
+  "outputItem": { "item": "phase-fabric", "amount": 4}
+}
