@@ -1,16 +1,16 @@
 {
   "type": "GenericCrafter",
-  "name": "Маломощный генератор свинца",
-  "description": "Генерирует Свинец, требуется для пустых карт (без ресурсов)",
-  "health": 750,
+  "name": "LP lead generator",
+  "description": "Slowly generates lead, gives out 2 lead. Usually uses in empty maps with no resources.",
+  "health": 340,
   "size": 2,
    "requirements": [
-	{ "item": "copper", "amount": 200},
+	{ "item": "copper", "amount": 80},
    ],
   "research": "mechanical-drill",
   "hasPower": false,
   "hasItems": true,
-  "craftTime": 480,
+  "craftTime": 360,
   
   "updateEffect": "smeltsmoke",
   "category": "crafting",
