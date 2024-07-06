@@ -14,10 +14,9 @@
   "craftTime": 180,
   "consumes": {
     "power": 10,
-	"items":
-		"items": [
-		"pyratite/2"
-		],
+	"items": [
+	"pyratite/2"
+	],
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",
